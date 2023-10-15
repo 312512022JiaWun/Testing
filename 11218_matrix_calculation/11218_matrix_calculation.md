@@ -1,29 +1,11 @@
 ## Task Description
-Write a C program to perform addition, subtraction, and multiplication operations of two 2D matrices. The size of all the matrices will not lager than 100*100.
-
-
-
-## Hint
-
-When you do the addition and subtraction, the size of the two matrices should be the same.
-
-When you do the multiplication, the column size of the first matrix should equal to the row size of the second matrix.
+Write a C program to perform addition, subtraction, and multiplication operations between two 2D matrices.
 
 ## Input Format
-The first line contains five integers: 
-
-The first two integers represent the dimensions (row and column) of the first matrix.
-
-The following two integers represent the dimensions (row and column) of the second matrix.
-
-The last integer represents the type of operation you will perform(0 represents addition, 1 represents subtraction, and 2 represents multiplication).
-
-Starting from the second line represents the elements of the two matrices in matrix format respectively.
-
-Note that: Starting from the second line, the shape of the two matrices should match the dimensions provided in the first line.
+Start by entering the dimensions of two matrices. Then, input your choice of operation (0 for addition, 1 for subtraction, 2 for multiplication). Next, input the two matrices you wish to perform the operation on.
 
 ## Ouput Format
-Print all the elements of the resulting matrix after performing the operation in matrix format.
+The resulting matrix after the operation.
 
 ## Sample Input 1
 ```
@@ -42,16 +24,16 @@ Print all the elements of the resulting matrix after performing the operation in
 
 ## Sample Input 2
 ```
-2 3 3 2 2
-1 1 1
-1 1 1
-1 1
-1 1
-1 1
+2 3 3 4 2
+1 2 1
+4 2 3
+2 9 8 1
+3 4 7 8
+9 9 9 1
 ```
 
 ## Sample Output 2
 ```
-3 3
-3 3
+17 26 31 18
+41 71 73 23
 ```
